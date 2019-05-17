@@ -1,0 +1,90 @@
+{
+    box-sizing: border-box;
+}
+
+body {
+    position: center;
+    alignment: center;
+    margin: 0;
+    font-family: sans-serif;
+    background: #ffffff;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+.formulario {
+    position: center;
+    width: 98%;
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    border_radius: 7px;
+}
+
+.formulario__titulo {
+    background: #005EFF;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-radius: 7px;
+}
+
+.contenedor__inputs {
+    position: center;
+    padding: 10px 30px;
+/¨display para acomodar los inputs/
+display: flex;
+/El contenido que no entra se va hacia abajo/
+flex-wrap: wrap;
+/SEPARAMOS LOS INPUTS/
+justify-content: space-between;
+
+}
+
+select {
+    position: center;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: peru;
+    margin-left: 20px;
+    background: burlywood;
+}
+
+
+.btn-registrar {
+    position: absolute;
+    background: firebrick;
+    color: white;
+    margin: auto;
+    padding: 10px 40px;
+}
+
+
+input{
+    background-color:#44c767;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    alignment: center;
+}
+
+div{
+    alignment: center;
+    position: center;
+}

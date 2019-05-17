@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Enlazamos el Css -->
+
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
+    <link href="stylesheets/style2.css" rel="stylesheet">
+
+    <!-- Enlazamos el JavaScript -->
+
+    <!-- Titulo de la paginas -->
+    <title>Trendig Topics by site</title>
+
+</head>
+
+<body>
+<form action="/index" class="formulario">
+
+    <h1 class="formulario__titulo">Trending Topics Mercado Libre</h1>
+
+    <div class="contenedor__inputs">
+        <select onchange="loadcategories(value)" name="site" id="sites"></select>
+        <select id="categories" name="categeory"></select>
+        <p class="input-text" id="parrafo"></p>
+
+
+        Filas x Columnas <select id="xy" name="xy">
+            <option value="1">1x1</option>
+            <option value="2">2x2</option>
+            <option value="3">3x3</option>
+            <option  value="4">4x4</option>
+            <option selected value="5">5x5</option>
+        </select>
+
+
+    </div>
+
+    <input type="submit" id = "button" value="Cargar">
+</form>
+    <script type="text/javascript" src="./javascripts/sites.js"></script>
+
+</body>
+</html>
